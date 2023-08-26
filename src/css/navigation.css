@@ -1,0 +1,150 @@
+.navbar {
+  position: relative;
+  z-index: 200;
+}
+
+.hamburger-nav {
+  width: 2.5rem;
+  height: 2.5rem;
+  position: fixed;
+  top: 10%;
+  right: 5%;
+  z-index: 300;
+}
+
+.hamburger {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  cursor: pointer;
+  transition: transform .5s;
+}
+
+.hamburger-line {
+  width: 100%;
+  height: 0.25rem;
+  background-color: var(--color-primary);
+  transform-origin: right;
+  transition: all .5s .5s;
+}
+
+.checkbox:checked~.navbar-navigation .navbar-navigation-left {
+  left: 0;
+}
+
+.checkbox:checked~.navbar-navigation .navbar-navigation-right {
+  right: 0;
+}
+
+.checkbox:checked~.hamburger-nav .hamburger {
+  transform: rotateZ(90deg);
+}
+
+.checkbox:checked~.hamburger-nav .hamburger-line-1 {
+  transform: rotateZ(-40deg);
+}
+
+.checkbox:checked~.hamburger-nav .hamburger-line-2 {
+  opacity: 0;
+}
+
+.checkbox:checked~.hamburger-nav .hamburger-line-3 {
+  transform: rotateZ(40deg);
+}
+
+.navbar-navigation {
+  display: flex;
+}
+
+.navbar-navigation-left {
+  width: 50vw;
+  height: 100vh;
+  background-color: var(--color-dark);
+  position: fixed;
+  left: -50vw;
+  transition: left .8s cubic-bezier(1, 0, 0, 1);
+  top: 0;
+}
+
+@media(max-width:800px) {
+  .navbar-navigation-left {
+    display: none;
+  }
+}
+
+.left-img {
+  width: 50%;
+  aspect-ratio: 2;
+  position: absolute;
+  box-shadow: 0 15px 60px rgba(0, 0, 0, .4);
+  opacity: .7;
+  border-radius: 10px;
+}
+
+.left-img:hover {
+  cursor:pointer;
+  opacity: 1;
+}
+
+.left-img-1 {
+  top: 15%;
+  left: 15%;
+}
+
+.left-img-2 {
+  top: 35%;
+  left: 25%;
+}
+
+.left-img-3 {
+  top: 55%;
+  left: 35%;
+}
+
+.navbar-navigation-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 100vh;
+  background-color: #1f1d1d;
+  position: fixed;
+  right: -50vw;
+  transition: right .8s cubic-bezier(1, 0, 0, 1);
+  top: 0;
+}
+
+@media(max-width:800px) {
+  .navbar-navigation-right {
+    width: 100vw;
+    right: -100vw;
+    height: 100vh;
+
+  }
+}
+
+.nav-list-link {
+  font-family: var(--font-dancingScript);
+  font-size: 3.125rem;
+  font-weight: 300;
+  letter-spacing: .125rem;
+  text-transform: capitalize;
+  color: var(--color-secondary);
+  text-decoration: none;
+  display: block;
+  margin: 1.25rem;
+  text-align: center;
+}
+
+.nav-list-link:hover {
+  color: var(--color-primary);
+  letter-spacing: 0.25rem;
+}
+
+@media(max-width:600px) {
+  .nav-list-link {
+    font-size: 2.5rem;
+  }
+}

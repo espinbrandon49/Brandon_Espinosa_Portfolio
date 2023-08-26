@@ -1,0 +1,90 @@
+.footer {
+  padding-top: 4.375em ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4em;
+}
+
+@media(max-width:800px) {
+  .footer-header {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media(max-width:500px) {
+  .main-name {
+    font-size: 1.5em;
+  }
+}
+
+.footer-social-media {
+  display: flex;
+  width: 300px;
+  justify-content: space-around;
+  margin-bottom: 4em;
+}
+
+.footer .social-media-link {
+  text-align: center;
+  text-decoration: none;
+  font-size: 50px;
+  color: #bbb;
+  transition: color .7s;
+}
+
+.footer .social-media-link:hover {
+  color: var(--color-primary);
+}
+
+.footer-contact-info {
+  text-align: center;
+}
+
+.footer-contact-info-paragraph {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  color: #bbb;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.footer-contact-info-paragraph+p {
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+.footer-github-paragraph {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  color: #bbb;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  opacity: .5;
+  transition: .3s;
+}
+
+.footer-github-paragraph:hover {
+  opacity: 1;
+  color: #fff !important;
+}
+
+.footer-github {
+  padding-top: 70px;
+  opacity: .5;
+  font-size: .75em;
+}
+
+.footer-repo-link {
+  text-decoration: none;
+}
+
+

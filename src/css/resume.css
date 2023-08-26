@@ -1,0 +1,77 @@
+.resume {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: var(--margin-bottom);
+}
+
+.resume-heading {
+  margin-bottom: 3rem;
+}
+
+.resume-main-heading {
+  font-family: var(--font-josefinSans);
+  font-size: 3em;
+  font-weight: 300;
+  color: var(--color-primary);
+  text-align: center;
+}
+
+.resume-sub-heading {
+  font-family: var(--font-josefinSans);
+  font-size: 1.875em;
+  font-weight: 300;
+  color: var(--color-secondary);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.resume-sm-heading {
+  font-family: var(--font-josefinSans);
+  font-size: 1em;
+  font-weight: 300;
+  color: var(--color-secondary);
+  text-align: center;
+}
+
+.resume-sm-heading-link {
+  text-decoration: none;
+  color: var(--color-secondary);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.resume-sm-heading-link:hover {
+  color: #F3F3F3;
+}
+
+.resume-body {
+  display: flex;
+  flex-direction: column;
+  color: var(--color-secondary);
+  margin: 0 1rem;
+}
+
+.resume-body-section {
+margin-bottom: 1rem;
+}
+
+.resume-subtitle {
+  font-family: var(--font-josefinSans);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--color-secondary);
+}
+
+.resume-list {
+  font-weight: 300;
+  font-family: var(--font-josefinSans);
+}
+
+.resume-technical-cols {
+  display: flex;
+}
+
+.resume-list-item {
+  list-style-type: disc;
+}

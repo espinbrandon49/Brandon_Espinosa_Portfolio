@@ -1,0 +1,22 @@
+.technical-skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: var(--margin-bottom);
+}
+
+.skills {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #bbb;
+  display: flex;
+  justify-content: center;
+}
+
+.skills-subheading {
+  font-family: var(--font-josefinSans);
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--color-secondary);
+}

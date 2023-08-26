@@ -1,0 +1,91 @@
+.about-me {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  /* margin-bottom: 16.75em; */
+  margin-bottom: var(--margin-bottom);
+}
+
+.about-me-left {
+  width: 40%;
+}
+
+.about-img {
+  opacity: 1 !important;
+}
+
+@media(max-width: 1000px) {
+  .about-me-left {
+    display: none;
+  }
+}
+
+.card-about {
+  width: 100%;
+  aspect-ratio: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-about:hover .card-overlay {
+  left: 0;
+}
+
+.card-overlay-paragraph-about1 {
+  font-weight: 400 !important;
+  text-transform: capitalize;
+}
+
+.card-overlay-paragraph-about2,.card-overlay-paragraph-about1  {
+  font-size: .9rem !important;
+}
+
+.about-me-left img {
+  width: 100%;
+  height: 100%;
+  opacity: .7;
+}
+
+.about-me-right {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 6.25rem;
+}
+
+@media(max-width: 1000px) {
+  .about-me-right {
+    padding: 0 50px;
+    width: 100%;
+  }
+}
+
+.stars {
+  margin: 1.875rem 0;
+}
+
+.star {
+  font-size: 0.938em;
+  color: #d3ab55;
+  margin-left: 0.625em;
+}
+
+.description {
+  font-family: var(--font-josefinSans);
+  font-size: 1em;
+  font-style: italic;
+  color: var(--color-secondary);
+  text-align: justify;
+}
+
+@media(max-width: 500px) {
+  .about-me-right .description {
+    font-size: 12px;
+    padding: 0;
+  }
+}
+
+.description::first-letter {
+  padding-left: 3.125em;
+}
