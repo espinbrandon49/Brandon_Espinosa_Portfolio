@@ -70,9 +70,7 @@ const Resume = () => {
             </div>
             <div className="resume-col3">
               <ul className="resume-list">
-                <li className="resume-list-item resume-list-title">
-                  Deployment and Delivery</li>
-                <li className="resume-list-item" >Deployment and Delivery</li>
+                <li className="resume-list-item resume-list-title">Deployment and Delivery</li>
                 <li className="resume-list-item" >Heroku</li>
                 <li className="resume-list-item" >Git</li>
                 <li className="resume-list-item" >GitHub Pages</li>

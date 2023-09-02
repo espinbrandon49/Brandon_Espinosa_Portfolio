@@ -14,7 +14,7 @@
   justify-content: center;
 }
 
-.skills-subheading {
+.skills-subheading, .resume-list-title {
   font-family: var(--font-josefinSans);
   font-size: 1rem;
   font-weight: 400;
