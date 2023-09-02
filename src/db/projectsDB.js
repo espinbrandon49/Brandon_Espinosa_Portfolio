@@ -45,13 +45,12 @@ module.exports = [
     description: "An online flea market to set up an online store with your goods and have a shopping cart. Full CRUD capabilities served across the entire app",
   },
   {
-    name: "Collaborative Front End - EV Station Locator",
-    technologies: "JavaScript, HTML, CSS, Bulma, server-side API, Fetch API, local storage, leaflet",
-    deployedLink: "https://espinbrandon49.github.io/EV-Charging-Station-Locator/",
-    githubRepo: "https://github.com/espinbrandon49/EV-Charging-Station-Locator",
+    name: "Collaborative Interactive Front-end - EV Station Locator",
+    technologies: "JavaScript, HTML, CSS, SASS, Bulma, server-side API, Fetch API, local storage, leaflet",
+    deployedLink: "https://espinbrandon49.github.io/EV-Station-Locator/",
+    githubRepo: "https://github.com/espinbrandon49/EV-Station-Locator",
     img: "ev-charging",
-    imgAlt: "App that collects data based on a person's location search and displays map with retail information.",
-    description: "App that collects data based on user's city or zipcode search and displays a map with retail information.  Searches are saved in local storage."
+    imgAlt: "An application that allows users to geolocate electric vehicle charging stations in a specified region using a city name or zipcode and also view the location's retail information."
   },
   // {
   //   name: "Full Stack Blog Site - Hack a Blog",
