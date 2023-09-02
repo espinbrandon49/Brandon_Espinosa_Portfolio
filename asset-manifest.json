@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Brandon_Espinosa_Portfolio/static/css/main.ee0efe88.css",
-    "main.js": "/Brandon_Espinosa_Portfolio/static/js/main.b396749a.js",
-    "static/media/ev-charging.png": "/Brandon_Espinosa_Portfolio/static/media/ev-charging.cf181e9da0c6ecdc8c8b.png",
+    "main.js": "/Brandon_Espinosa_Portfolio/static/js/main.ffb98a83.js",
+    "static/media/ev-charging.png": "/Brandon_Espinosa_Portfolio/static/media/ev-charging.695a9e30228e756d1d5d.png",
     "static/media/swap-meet-react.png": "/Brandon_Espinosa_Portfolio/static/media/swap-meet-react.a6abebe5caadac6a9852.png",
     "static/media/narratorium.png": "/Brandon_Espinosa_Portfolio/static/media/narratorium.315268c21e0a2244ec4f.png",
     "static/media/hack-a-thought.png": "/Brandon_Espinosa_Portfolio/static/media/hack-a-thought.cdeb009846b84a240294.png",
@@ -17,10 +17,10 @@
     "static/media/movie-seat-booking.png": "/Brandon_Espinosa_Portfolio/static/media/movie-seat-booking.df23d18942639458c01b.png",
     "index.html": "/Brandon_Espinosa_Portfolio/index.html",
     "main.ee0efe88.css.map": "/Brandon_Espinosa_Portfolio/static/css/main.ee0efe88.css.map",
-    "main.b396749a.js.map": "/Brandon_Espinosa_Portfolio/static/js/main.b396749a.js.map"
+    "main.ffb98a83.js.map": "/Brandon_Espinosa_Portfolio/static/js/main.ffb98a83.js.map"
   },
   "entrypoints": [
     "static/css/main.ee0efe88.css",
-    "static/js/main.b396749a.js"
+    "static/js/main.ffb98a83.js"
   ]
 }
