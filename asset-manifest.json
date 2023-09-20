@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Brandon_Espinosa_Portfolio/static/css/main.4ee045e1.css",
-    "main.js": "/Brandon_Espinosa_Portfolio/static/js/main.399a892f.js",
+    "main.css": "/Brandon_Espinosa_Portfolio/static/css/main.8615d41c.css",
+    "main.js": "/Brandon_Espinosa_Portfolio/static/js/main.a2fba698.js",
     "static/media/ev-charging.png": "/Brandon_Espinosa_Portfolio/static/media/ev-charging.695a9e30228e756d1d5d.png",
     "static/media/swap-meet-react.png": "/Brandon_Espinosa_Portfolio/static/media/swap-meet-react.a6abebe5caadac6a9852.png",
     "static/media/narratorium.png": "/Brandon_Espinosa_Portfolio/static/media/narratorium.315268c21e0a2244ec4f.png",
@@ -10,17 +10,17 @@
     "static/media/hireable-hippo-helper.png": "/Brandon_Espinosa_Portfolio/static/media/hireable-hippo-helper.a6559bc0f90bcf524fb6.png",
     "static/media/brandon1.jpg": "/Brandon_Espinosa_Portfolio/static/media/brandon1.ba666d7d4f6d800a771c.jpg",
     "static/media/social-pals-react.png": "/Brandon_Espinosa_Portfolio/static/media/social-pals-react.bd25eb30c62c16cb15cd.png",
-    "static/media/Brandon_Espinosa_Resume.pdf": "/Brandon_Espinosa_Portfolio/static/media/Brandon_Espinosa_Resume.d5523d8b9274e3e6f06b.pdf",
+    "static/media/Brandon_Espinosa_Resume.pdf": "/Brandon_Espinosa_Portfolio/static/media/Brandon_Espinosa_Resume.c5356d4f230b4f305164.pdf",
     "static/media/exchange-rate-calculator.png": "/Brandon_Espinosa_Portfolio/static/media/exchange-rate-calculator.80719161b7d47fdb26bf.png",
     "static/media/hangman.png": "/Brandon_Espinosa_Portfolio/static/media/hangman.e86b4d6f44762b64cf64.png",
     "static/media/stark-bare-notes.png": "/Brandon_Espinosa_Portfolio/static/media/stark-bare-notes.9b27b14e3e4cde1d711a.png",
     "static/media/movie-seat-booking.png": "/Brandon_Espinosa_Portfolio/static/media/movie-seat-booking.df23d18942639458c01b.png",
     "index.html": "/Brandon_Espinosa_Portfolio/index.html",
-    "main.4ee045e1.css.map": "/Brandon_Espinosa_Portfolio/static/css/main.4ee045e1.css.map",
-    "main.399a892f.js.map": "/Brandon_Espinosa_Portfolio/static/js/main.399a892f.js.map"
+    "main.8615d41c.css.map": "/Brandon_Espinosa_Portfolio/static/css/main.8615d41c.css.map",
+    "main.a2fba698.js.map": "/Brandon_Espinosa_Portfolio/static/js/main.a2fba698.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ee045e1.css",
-    "static/js/main.399a892f.js"
+    "static/css/main.8615d41c.css",
+    "static/js/main.a2fba698.js"
   ]
 }
