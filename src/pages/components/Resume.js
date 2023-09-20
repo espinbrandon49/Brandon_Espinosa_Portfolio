@@ -14,6 +14,7 @@ const Resume = () => {
 
       <div className="resume-body container">
         <div className="resume-body-section" >
+          <h4 className="resume-header">Military</h4>
           <h4 className="resume-subtitle ">U.S. Army - Special Operations Healthcare Specialist</h4>
           <ul className="resume-list">
             <li className="resume-list-item">75th Ranger Regiment, Ft. Benning, GA</li>
@@ -23,8 +24,12 @@ const Resume = () => {
         </div>
 
         <div className="resume-technical resume-body-section">
+          <h4 className="resume-header">Technical Experience</h4>
           <h4 className="resume-subtitle">
-            U.C. Berkeley Extension Full Stack Coding
+            <strong>University of California, Berkeley</strong> - Full Stack Coding Bootcamp
+          </h4>
+          <h4 className="resume-subtitle">
+            Technical Certificate - Full Stack Software Developer
           </h4>
           <div className="resume-technical-cols">
             <div className="resume-col1">
@@ -94,6 +99,7 @@ const Resume = () => {
         </div>
 
         <div className="resume-work resume-body-section">
+          <h4 className="resume-header">Work Experience</h4>
           <h4 className="resume-subtitle">Smith Hampton & Devlin, LLC - Technical Recruiter</h4>
           <div>Oakland, CA</div>
           <ul className="resume-list">
@@ -102,6 +108,13 @@ const Resume = () => {
         </div>
 
         <div className="resume-education resume-body-section">
+          <h4 className="resume-header">Education</h4>
+          <h4 className="resume-subtitle">University of California, Berkeley</h4>
+          <div>Berkeley, CA</div>
+          <ul className="resume-list">
+            <li className="resume-list-item">Berkeley Coding Bootcamp</li>
+            <li className="resume-list-item">Full Stack Software Development</li>
+          </ul>
           <h4 className="resume-subtitle">University of Phoenix</h4>
           <div>Phoenix, AZ</div>
           <ul className="resume-list">

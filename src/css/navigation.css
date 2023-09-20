@@ -79,13 +79,12 @@
   aspect-ratio: 2;
   position: absolute;
   box-shadow: 0 15px 60px rgba(0, 0, 0, .4);
-  opacity: .7;
+  /* opacity: .7; */
   border-radius: 10px;
 }
 
 .left-img:hover {
   cursor:pointer;
-  opacity: 1;
 }
 
 .left-img-1 {

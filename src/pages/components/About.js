@@ -18,20 +18,8 @@ const About = () => {
               card-overlay-paragraph card-overlay-paragraph-technologies
               card-overlay-paragraph-about2
               ">{Projects[0].description}</div>
-              {/* <div className="card-overlay-btns">
-                <button type="button" className="card-overlay-btn-wrapper">
-                  <a rel="noreferrer" href={Projects[0].githubRepo} target="_blank" className="card-overlay-btn-link">
-                    <i className="fa-brands fa-github card-overlay-btn"></i>
-                  </a>
-                </button>
-                <button type="button" className="card-overlay-btn-wrapper">
-                  <a rel="noreferrer" href={Projects[0].deployedLink} target="_blank" className="card-overlay-btn-link">
-                    <i className="fa-solid fa-globe card-overlay-btn"></i>
-                  </a>
-                </button>
-              </div> */}
             </div>
-              <img src={require(`../../images/${Projects[0].img}.png`)} alt={Projects[0].imgAlt} className="about-img rounded-0" />
+            <img src={require(`../../images/${Projects[0].img}.png`)} alt={Projects[0].imgAlt} className="about-img rounded-0" />
           </div>
         </div>
         <div className="about-me-right">

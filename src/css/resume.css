@@ -56,6 +56,12 @@
 margin-bottom: 1rem;
 }
 
+.resume-header {
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 1.1rem;
+}
+
 .resume-subtitle {
   font-family: var(--font-josefinSans);
   font-size: 1rem;
