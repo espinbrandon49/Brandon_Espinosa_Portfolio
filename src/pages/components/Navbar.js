@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import img1 from '../../images/hangman.png'
 import img2 from '../../images/exchange-rate-calculator.png'
-import img3 from '../../images/movie-seat-booking.png'
+import img3 from '../../images/expense-tracker.png'
 
 const Navbar = () => {
   const [isChecked, setIsChecked] = useState(false);
@@ -28,7 +28,7 @@ const Navbar = () => {
           <a href='https://espinbrandon49.github.io/Exchange-Rate-Calculator/' app target="_blank" rel="noreferrer">
             <img src={img2} className="left-img left-img-2"  alt='clickable exchange rate calculator'/>
           </a>
-          <a href='https://espinbrandon49.github.io/Movie-Seat-Booking/'>
+          <a href='https://espinbrandon49.github.io/Expense-Tracker/'>
             <img src={img3} className="left-img left-img-3"  alt='clickable movie seat booking app'/>
           </a>
         </div>

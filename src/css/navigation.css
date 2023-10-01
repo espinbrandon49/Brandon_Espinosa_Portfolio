@@ -75,31 +75,31 @@
 }
 
 .left-img {
-  width: 50%;
-  aspect-ratio: 2;
+  width: 62%;
+  aspect-ratio: 1.75;
   position: absolute;
   box-shadow: 0 15px 60px rgba(0, 0, 0, .4);
-  /* opacity: .7; */
   border-radius: 10px;
 }
 
 .left-img:hover {
   cursor:pointer;
+  scale: 1.1;
 }
 
 .left-img-1 {
   top: 15%;
-  left: 15%;
+  left: 10%;
 }
 
 .left-img-2 {
   top: 35%;
-  left: 25%;
+  left: 20%;
 }
 
 .left-img-3 {
   top: 55%;
-  left: 35%;
+  left: 30%;
 }
 
 .navbar-navigation-right {
