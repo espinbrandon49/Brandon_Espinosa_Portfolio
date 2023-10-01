@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import img1 from '../../images/hangman.png'
+import img1 from '../../images/hack-a-thought.png'
 import img2 from '../../images/exchange-rate-calculator.png'
 import img3 from '../../images/expense-tracker.png'
 
@@ -22,7 +22,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-navigation">
         <div className="navbar-navigation-left">
-          <a href=' https://espinbrandon49.github.io/Hangman/' target='_blank'>
+          <a href='https://hackathought.herokuapp.com/' target='_blank'>
             <img src={img1} className="left-img left-img-1" alt='clickable hangman app'/>
           </a>
           <a href='https://espinbrandon49.github.io/Exchange-Rate-Calculator/' app target="_blank" rel="noreferrer">
