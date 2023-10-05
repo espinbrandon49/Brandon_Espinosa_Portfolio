@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import img1 from '../../images/hack-a-thought.png'
 import img2 from '../../images/exchange-rate-calculator.png'
-import img3 from '../../images/expense-tracker.png'
+import img3 from '../../images/myExpenseTracker.png'
 
 const Navbar = () => {
   const [isChecked, setIsChecked] = useState(false);
@@ -28,8 +28,8 @@ const Navbar = () => {
           <a href='https://espinbrandon49.github.io/Exchange-Rate-Calculator/' app target="_blank" rel="noreferrer">
             <img src={img2} className="left-img left-img-2"  alt='clickable exchange rate calculator'/>
           </a>
-          <a href='https://espinbrandon49.github.io/Expense-Tracker/'>
-            <img src={img3} className="left-img left-img-3"  alt='clickable movie seat booking app'/>
+          <a href='https://react-redux-expense-tracket.vercel.app/' target='_blank'>
+            <img src={img3} className="left-img left-img-3"  alt='clickable expense tracker app'/>
           </a>
         </div>
         <div className="navbar-navigation-right">
