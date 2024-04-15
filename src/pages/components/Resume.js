@@ -6,119 +6,67 @@ const Resume = () => {
     <section className="resume" >
       <div className="resume-heading" id="resume">
         <h3 className="resume-main-heading">Brandon Espinosa Resume</h3>
-        <h3 className="resume-sub-heading">Full Stack Web Developer</h3>
+        <h3 className="resume-sub-heading">Full Stack Software Developer</h3>
         <div className="resume-sm-heading">Portfolio: <a className="resume-sm-heading-link" href="https://rb.gy/95tdd">https://rb.gy/95tdd </a>| Email:  <a className="resume-sm-heading-link" href="mailto:" >espinbrandon49@gmail.com</a> | Phone: 313-645-0722
-          <div>Los Angeles, CA / Remote</div></div>
-        <div className="resume-sm-heading">Available For Relocation to Anywhere In the U.S.</div>
+          <br></br>Address:  Detroit, MI / or Remote / Available to relocate</div>
       </div>
 
       <div className="resume-body container">
-        <div className="resume-body-section" >
-          <h4 className="resume-header">Military</h4>
-          <h4 className="resume-subtitle ">U.S. Army - Special Operations Healthcare Specialist</h4>
-          <ul className="resume-list">
-            <li className="resume-list-item">75th Ranger Regiment, Ft. Benning, GA</li>
-            <li className="resume-list-item">Honorable Discharge, Commendation Medal for Valor</li>
-            <li className="resume-list-item">Supported unit readiness by providing healthcare support in garrison and in the field</li>
-          </ul>
-        </div>
-
         <div className="resume-technical resume-body-section">
           <h4 className="resume-header">Technical Experience</h4>
-          <h4 className="resume-subtitle">
-            <strong>University of California, Berkeley</strong> - Full Stack Coding Bootcamp
-          </h4>
-          <h4 className="resume-subtitle">
-            Technical Certificate - Full Stack Software Developer
-          </h4>
-          <div className="resume-technical-cols">
-            <div className="resume-col1">
-              <ul className="resume-list">
-                <li className="resume-list-item resume-list-title">Computer Science applied to JavaScript</li>
-                <li className="resume-list-item">Algorithms (Searches, Sorts)</li>
-                <li className="resume-list-item">Performance</li>
-                <li className="resume-list-item">Time Complexity</li>
-                <li className="resume-list-item">Big O Notation</li>
-                <li className="resume-list-item">Data Structures</li>
-                <br />
-                <li className="resume-list-item resume-list-title">Browser Based Technologies</li>
-                <li className="resume-list-item">HTML/CSS</li>
-                <li className="resume-list-item">JavaScript</li>
-                <li className="resume-list-item">Responsive Design</li>
-                <li className="resume-list-item">Bootstrap</li>
-                <li className="resume-list-item">Progressive Web Applications (PWAs)</li>
-                <li className="resume-list-item">Local Storage, Session Storage, IndexedDB</li>
-                <li className="resume-list-item">React.js</li>
-                <br />
-                <li className="resume-list-item resume-list-title">Databases</li>
-                <li className="resume-list-item">MySQL</li>
-                <li className="resume-list-item">MongoDB</li>
-              </ul>
-            </div>
-            <div className="resume-col2">
-              <ul className="resume-list">
-                <li className="resume-list-item resume-list-title">
-                  Server Side Development</li>
-                <li className="resume-list-item" >User Authentication</li>
-                <li className="resume-list-item" >Template Engines</li>
-                <li className="resume-list-item" >MERN Stack (MongoDB, Express.js, React.js, Node.js)</li>
-                <br />
-                <li className="resume-list-item resume-list-title">API Design</li>
-                <li className="resume-list-item" >Client-Server Model</li>
-                <li className="resume-list-item" >API</li>
-                <li className="resume-list-item" >Rest</li>
-                <li className="resume-list-item" >JSON</li>
-                <li className="resume-list-item" >AJAX (Fetch API)</li>
-                <li className="resume-list-item" >HTTP request methods</li>
-                <li className="resume-list-item" >GraphQL</li>
-              </ul>
-            </div>
-            <div className="resume-col3">
-              <ul className="resume-list">
-                <li className="resume-list-item resume-list-title">Deployment and Delivery</li>
-                <li className="resume-list-item" >Heroku</li>
-                <li className="resume-list-item" >Git</li>
-                <li className="resume-list-item" >GitHub Pages</li>
-                <li className="resume-list-item" >Shell Scripting</li>
-                <li className="resume-list-item" >Unit Testing</li>
-                <li className="resume-list-item" >Continuous Integration</li>
-                <br />
-                <li className="resume-list-item resume-list-title">Object-oriented programming (Java)</li>
-                <li>Datatypes and Control Flow</li>
-                <li className="resume-list-item" >Inheritance</li>
-                <li className="resume-list-item" >Polymorphism</li>
-                <li className="resume-list-item" >Abstraction</li>
-                <li className="resume-list-item" >Encapsulation</li>
-                <li className="resume-list-item" >Design Patterns, Interface, Serialization</li>
-                <li className="resume-list-item" >Maven, Gradle</li>
-                <li className="resume-list-item" >Spring MVC</li>
-                <li className="resume-list-item" >JUnit</li>
-              </ul>
-            </div>
-          </div>
+          <ul className="technical-skills-list">
+            <li><strong>Computer Science</strong> - Algorithms (Searches, Sorts), Performance, Time Complexity, Data Structures</li>
+            <li><strong>Browser Based Technologies</strong> - HTML/CSS, JavaScript, Responsive Design, Bootstrap, React.js</li>
+            <li><strong>Databases </strong> - MySQL, MongoDB</li>
+            <li><strong>Server Side Development</strong> - User Authentication, Template Engines, MERN (MongoDB, Express.js, React.js, Node.js)</li>
+            <li><strong>API Design </strong> - Client-Server Model, API, Rest, JSON, AJAX (Fetch API), HTTP request methods, GraphQL</li>
+            <li><strong>Deployment and Delivery</strong> - Git, GitHub, Heroku, Shell Scripting, Unit Testing, Linting, Continuous Integration</li>
+            <li><strong>Object-oriented programming</strong> - Java Core, OOP, Design Patterns, Interfaces, Microservices, Rest Webservices, Maven, Gradle, Spring Boot, JUnit</li>
+          </ul>
         </div>
 
         <div className="resume-work resume-body-section">
           <h4 className="resume-header">Work Experience</h4>
-          <h4 className="resume-subtitle">Smith Hampton & Devlin, LLC - Technical Recruiter</h4>
-          <div>Oakland, CA</div>
+          <h4 className="resume-subtitle">University of California, Berkeley - Technical Instructor</h4>
+          <div>October 2023 - Current | Oakland, CA</div>
           <ul className="resume-list">
-            <li className="resume-list-item">Implement technical staffing and recruiting processes, strategies, and solutions</li>
+            <li className="resume-list-item">Lead instructor teaching a sociotechnical and software development or data science curriculum</li>
+            <li className="resume-list-item">Leverage existing instructor materials and student resources (course outlines, instructional materials, and training aids)</li>
+            <li className="resume-list-item">Provide small group mentorship opportunities and technical support to students</li>
+            <li className="resume-list-item">Collaborate with the team to ensure all student data is collected and accurate in a timely manner</li>
+          </ul>
+
+          <h4 className="resume-subtitle">Facebook - Associate Software Developer, User Engagement</h4>
+          <div>November 2022 - October 2023 | Menlo Park, CA</div>
+          <ul className="resume-list">
+            <li className="resume-list-item"> Refined application features per business requirement changes, enabling the introduction of new features aimed at improving user engagement</li>
+            <li className="resume-list-item"> Implemented responsive web design principles to ensure platform updates rendered well across multiple devices</li>
+            <li className="resume-list-item">Collaborated with a team of 5 developers for an e-commerce transaction application designing payment interfaces</li>
+            <li className="resume-list-item"> Contributed in the front-end development of a major content management system update, enhancing user experience and operational efficiency</li>
+          </ul>
+
+          <h4 className="resume-subtitle">Facebook - Software Developer Intern</h4>
+          <div>June 2022 - November 2022 | Menlo Park, CA</div>
+          <ul className="resume-list">
+            <li className="resume-list-item">Coded embedded stylesheets into existing Javascript interfaces that reduced load times by as much as 80%</li>
+            <li className="resume-list-item">Assisted 25 junior & senior employees in testing programming code and applications</li>
+            <li className="resume-list-item">Compiled 120 bi-weekly reports that the line supervisor reviewed during company-wide fireside chats</li>
+            <li className="resume-list-item">Collaborated with 20 team members to design creative UX solutions on the platform</li>
           </ul>
         </div>
 
         <div className="resume-education resume-body-section">
           <h4 className="resume-header">Education</h4>
           <h4 className="resume-subtitle">University of California, Berkeley</h4>
-          <div>Berkeley, CA</div>
+          <div>Berkeley, CA | 2018 - 2022</div>
+          <ul className="resume-list">
+            <li className="resume-list-item">Bachelor of Science in Computer Science</li>
+          </ul>
+          <h4 className="resume-subtitle">University of California, Berkeley</h4>
+          <div>Berkeley, CA | 2022</div>
           <ul className="resume-list">
             <li className="resume-list-item">Berkeley Coding Bootcamp</li>
             <li className="resume-list-item">Full Stack Software Development</li>
-          </ul>
-          <h4 className="resume-subtitle">University of Phoenix</h4>
-          <div>Phoenix, AZ</div>
-          <ul className="resume-list">
-            <li className="resume-list-item">Bachelor of Science in Psychology</li>
           </ul>
         </div>
       </div>

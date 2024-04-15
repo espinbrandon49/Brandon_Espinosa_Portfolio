@@ -31,7 +31,7 @@ const About = () => {
             <i className="fas fa-star-of-life star"></i>
           </div>
           <p className="description">
-            U.S Army Airborne Ranger Medic, pivoted to Technical Recruiter, now a Full Stack Web Developer and turbocharged about building the space of the future using modern, in-demand, and bleeding edge technologies!
+            Full Stack Software Developer turbocharged about building the space of the future using modern, in-demand, and bleeding edge technologies!
           </p>
           <div className="stars">
             <i className="fas fa-star-of-life star"></i>

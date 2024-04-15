@@ -24,7 +24,7 @@ const Contact = () => {
         <p className="footer-contact-info-paragraph">
           <div>Phone: 313-645-0722</div>
           <div>Email: espinbrandon49@gmail.com</div>
-          <div>Address: Los Angeles, CA </div>
+          <div>Address: Detroit, MI </div>
         </p>
         <p className="footer-contact-info-paragraph">
           Available to relocate to anywhere in the U.S.
