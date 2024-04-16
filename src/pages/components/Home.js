@@ -1,4 +1,4 @@
-import logo from '../../images/brandon1.jpg'
+import logo from '../../images/brandon_image.jpg'
 import pdf from "../../pdf/Brandon_Espinosa_Resume.pdf"
 
 const Home = () => {

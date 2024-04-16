@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../images/brandon1.jpg'
+import logo from '../../images/brandon_image.jpg'
 
 const Contact = () => {
   return (
@@ -9,11 +9,11 @@ const Contact = () => {
         </a>
         <div>
           <h1 className="main-name">Brandon Espinosa</h1>
-          <p className="sub-name">Full Stack Web Developer</p>
+          <p className="sub-name">Full Stack Software Developer</p>
         </div>
       </div>
       <div className="footer-social-media">
-        <a href="https://www.linkedin.com/in/brandon-espinosa-b65a0b241" className="social-media-link" target='_blank'>
+        <a href="https://www.linkedin.com/in/brandon-espinosa-59b5b428b" className="social-media-link" target='_blank'>
           <i className="fa-brands fa-linkedin"></i>
         </a>
         <a href="https://github.com/espinbrandon49" className="social-media-link" target='_blank'>
@@ -23,7 +23,7 @@ const Contact = () => {
       <div className="footer-contact-info">
         <p className="footer-contact-info-paragraph">
           <div>Phone: 313-645-0722</div>
-          <div>Email: espinbrandon49@gmail.com</div>
+          <div>Email: espinbrandon439@gmail.com</div>
           <div>Address: Detroit, MI </div>
         </p>
         <p className="footer-contact-info-paragraph">
